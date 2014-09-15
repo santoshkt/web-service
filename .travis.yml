@@ -1,0 +1,10 @@
+language: java
+jdk:
+- openjdk6
+deploy:
+  provider: heroku
+  api_key:
+    secure: GhrivJzdadmrKAevicgqg9QgyNZjQrnvHfakPOpzFPD3FIH9mouQd81uJtcCLamWuUIdAAi0sQwpSwvvcEFPRqVKY9AQsaJR+mdMy6H2LeMT8BNUbLJvCylVNzcCp+i3amePCZKZkB30aLme86CVGq+FtAftpi1K+UFe9W4vF7c=
+  app: cdetsd123
+  on:
+    repo: santoshkt/cdetsd123

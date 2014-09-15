@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*************************************************************************
+* File Name: style.css                                                   *
+* Author: Santosh K Tadikonda                                            *
+* Email: stadikon@gmu.edu                                                *
+* Date: March 9, 2014                                                    *
+* Version: 1.0                                                           *
+*************************************************************************/
+body {
+	font: 100% "Trebuchet MS", Helvetica, sans-serif;
+	background: RGB(58, 62, 64);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #000000;
+}
+
+#header {
+	background-color: RGB(213, 7, 116);
+	padding: 10px 0px 10px 0px;
+	color: #FFF;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+td {
+	vertical-align: top;
+}
+
+#container {
+	width: 967px;
+	margin: 0 auto;
+}
+
+#main {
+	text-align: left;
+	background-color: #FFF;
+	padding: 0px 10px 10px 10px;
+}
+
+#error-msg {
+	border: 1px solid;
+	padding: 15px 10px 15px 10px;
+	color: #D8000C;
+	background-color: #FFBABA;
+	text-align: left;
+	font-weight: bold;
+}
+
+#success-msg {
+	border: 1px solid;
+	padding: 15px 10px 15px 10px;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	text-align: center;
+	font-weight: bold;
+}
+
+#footer {
+	font-weight: lighter;
+	color: #FFF;
+	margin-top: 0px;
+	font-size: 0.8em;
+	padding: 20px;
+	background-color: #000;
+}
